@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xs3p.xsl"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="author"
+           version="1.1.0">
+    <xs:complexType name="author">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" minOccurs="0"/>
+            <xs:element name="middle_name" type="xs:string" minOccurs="0"/>
+            <xs:element name="surname" type="xs:string"/>
+            <xs:element name="birth_date" type="xs:date" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
