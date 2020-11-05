@@ -7,6 +7,10 @@ Cieľom projektu je demonštrovať jednoduchú SAO aplikáciu s webovými služb
 Aplikácia implementuje spracovanie WSDL schémy pre webové služby,
 spracovanie XML súborov pre automatické generovanie POJO tried.
 
+Narozdiel od príkladu v projekte [Interes-Group/java-course-xsd](https://github.com/Interes-Group/java-course-xsd)
+je XSD schéma, definujúca entity vo webových službách, rozdelená do menší logických častí a následne
+je využitá možnosť importovania XSD schém medzi sebou.
+
 Vygenerované triedy sú umiestnené v `target/generated-sources/main/java/`.
 
 ## Web service
